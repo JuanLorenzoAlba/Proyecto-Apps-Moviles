@@ -1,13 +1,7 @@
 :root {
-  --main-c: #000000;
-  --secondary-c: #6f282f;
-  --tertiary-c: #232526;
+  --main-c: #0D0D0D;
+  --secondary-c: #308843;
 
-  --orange-c: #FF5F19;
   --black-c: #000;
   --white-c: #fff;
-
-  --facebook: #3b5999;
-  --instagram: #e4405f;
-  --pinterest: #bd081c;
 }
