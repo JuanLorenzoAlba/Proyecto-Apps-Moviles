@@ -1,0 +1,9 @@
+footer {
+    background: var(--main-c);
+    color: var(--white-c);
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}

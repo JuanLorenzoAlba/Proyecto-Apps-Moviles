@@ -7,7 +7,12 @@
     <title>Tienda de Electrónica</title>
     <link rel="stylesheet" href="/style/colores.css">
     <link rel="stylesheet" href="/style/estilosGenerales.css">
-    <link rel="stylesheet" href="/style/index.css">
+    <!--<link rel="stylesheet" href="/style/buscador.css">-->
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/productos.css">
+    <link rel="stylesheet" href="/style/contenedor.css">
+    <link rel="stylesheet" href="/style/aside.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
@@ -15,11 +20,10 @@
 
 <body>
     <header>
-        <h1>Tienda de Electrónica</h1>
-        <div class="search-box">
-            <input type="text" placeholder="Buscar productos...">
-            <button>🔍</button>
+        <div class="logo-container">
+            <img src="/img/2582470.png" alt="Logo de la tienda">
         </div>
+        <h1 class="titulo">Tienda de Electrónica</h1>
     </header>
 
     <nav>
@@ -34,55 +38,71 @@
         </ul>
     </nav>
 
-    <div class="lista-productos">
-        <div class="producto">
-            <img src="/img/Smartphone.webp" alt="Smartphones">
-            <h3>Zte Smartphone Blade A54 128gb 4gb Ram Gris</h3>
-            <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
-            <span class="precio">$229.999</span>
-        </div>
-        <div class="producto">
-            <img src="/img/Notebook.webp" alt="Notebook">
-            <h3>Notebook A315-44P-R7GS Aspire 3 15.6" 16GB de Ram - 512GB SSD plateado Ace</h3>
-            <p>ofrece un rendimiento excepcional en un diseño plateado elegante, perfecto para usuarios que buscan potencia y estilo en un solo dispositivo.</p>
-            <span class="precio">$1.499.999</span>
-        </div>
-        <div class="producto">
-            <img src="/img/Consola Sony PlayStation 5 Slim.webp" alt="Consola Sony PlayStation 5 Slim">
-            <h3>Consola Sony PlayStation 5 Slim 4K 1TB Digital</h3>
-            <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
-            <span class="precio">$1.510.585</span>
-        </div>
-        <div class="producto">
-            <img src="/img/Alexa.webp" alt="Alexa">
-            <h3>Amazon Echo Dot 5th Gen con asistente virtual Alexa negro 110V/240V color negro</h3>
-            <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
-            <span class="precio">$74.700</span>
-        </div>
-        <div class="producto">
-            <img src="/img/Computadora0.webp" alt="Computadora0">
-            <h3>Pc Armada Gamer Amd Ryzen 7 5700g 16g Ssd 1tb - Mx527</h3>
-            <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
-            <span class="precio">$909.989</span>
-        </div>
-        <div class="producto">
-            <img src="/img/Computadora1.webp" alt="Computadora1.webp">
-            <h3>CPc Armada Gamer Amd Ryzen 7 De 8/16 Nucleos 16gb Ram Ssd 480</h3>
-            <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
-            <span class="precio">$899.999</span>
-        </div>
-        <div class="producto">
-            <img src="/img/juego0.webp" alt="J">
-            <h3>EA Sports FC 25 PS4 Estándar Físico</h3>
-            <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
-            <span class="precio">$67.663</span>
-        </div>
-        <div class="producto">
-            <img src="/img/juego1.webp" alt="Astro Bot Formato Físico Ps5">
-            <h3>Astro Bot Formato Físico Ps5</h3>
-            <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
-            <span class="precio">$85.999</span>
-        </div>
+    <!-- Nuevo contenedor con el layout dividido en 3 columnas -->
+    <div class="contenedor">
+        <aside class="izquierda">
+            <h2>Ofertas Especiales</h2>
+            <div class="oferta-especial">
+                <img src="/img/motosierra.webp" alt="motosierra">
+                <h3>Motosierra A Nafta Lusqtoff Garden Plus Blanca 52cc Prom-52 2.5hp</h3>
+                <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
+                <span class="precio">$83.411</span>
+            </div>
+        </aside>
+
+        <main class="lista-productos">
+            <div class="producto">
+                <img src="/img/Smartphone.webp" alt="Smartphones">
+                <h3>Zte Smartphone Blade A54 128gb 4gb Ram Gris</h3>
+                <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
+                <span class="precio">$229.999</span>
+            </div>
+            <div class="producto">
+                <img src="/img/Notebook.webp" alt="Notebook">
+                <h3>Notebook A315-44P-R7GS Aspire 3 15.6" 16GB de Ram - 512GB SSD plateado Ace</h3>
+                <p>ofrece un rendimiento excepcional en un diseño plateado elegante, perfecto para usuarios que buscan
+                    potencia y estilo en un solo dispositivo.</p>
+                <span class="precio">$1.499.999</span>
+            </div>
+            <div class="producto">
+                <img src="/img/Consola Sony PlayStation 5 Slim.webp" alt="Consola Sony PlayStation 5 Slim">
+                <h3>Consola Sony PlayStation 5 Slim 4K 1TB Digital</h3>
+                <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
+                <span class="precio">$1.510.585</span>
+            </div>
+            <div class="producto">
+                <img src="/img/Alexa.webp" alt="Alexa">
+                <h3>Amazon Echo Dot 5th Gen con asistente virtual Alexa negro 110V/240V color negro</h3>
+                <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
+                <span class="precio">$74.700</span>
+            </div>
+            <div class="producto">
+                <img src="/img/Computadora0.webp" alt="Computadora0">
+                <h3>Pc Armada Gamer Amd Ryzen 7 5700g 16g Ssd 1tb - Mx527</h3>
+                <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
+                <span class="precio">$909.989</span>
+            </div>
+            <div class="producto">
+                <img src="/img/Computadora1.webp" alt="Computadora1.webp">
+                <h3>CPc Armada Gamer Amd Ryzen 7 De 8/16 Nucleos 16gb Ram Ssd 480</h3>
+                <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
+                <span class="precio">$899.999</span>
+            </div>
+            <div class="producto">
+                <img src="/img/juego0.webp" alt="J">
+                <h3>EA Sports FC 25 PS4 Estándar Físico</h3>
+                <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
+                <span class="precio">$67.663</span>
+            </div>
+            <div class="producto">
+                <img src="/img/juego1.webp" alt="Astro Bot Formato Físico Ps5">
+                <h3>Astro Bot Formato Físico Ps5</h3>
+                <p>Dispositivo de última generación con gran rendimiento y cámara avanzada.</p>
+                <span class="precio">$85.999</span>
+            </div>
+        </main>
+
+
     </div>
 
     <footer>

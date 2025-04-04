@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Esto centra todo el contenido del header */
+    background-color: black;
+    padding: 30px;
+    color: white;
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    left: 10px; /* o el margen que quieras */
+    top: 10px;
+}
+
+.logo-container img {
+    height: 150px;
+    margin-right: 15px;
+}
+
+header h1 {
+    margin: 10px 0;
+    text-align: center;
+    flex: 1; /* Esto ayuda a centrar */
+}
