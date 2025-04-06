@@ -7,3 +7,18 @@ footer {
     width: 100%;
     position: relative;
 }
+
+footer .redes {
+    margin-top: 10px;
+}
+
+footer .redes a {
+    color: var(--white-c);
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .redes a:hover {
+    color: var(--secondary-c);
+}

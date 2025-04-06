@@ -14,7 +14,7 @@
     border-radius: 20px;
     display: inline-block;
     margin-bottom: 15px;
-    font-size: 1.1em;
+    font-size: 0.98em;
     letter-spacing: 0.5px;
 }
 
@@ -31,21 +31,23 @@
     margin-left: auto;
     margin-right: auto;
     background: var(--white-c);
-    background: linear-gradient(to right, #0d1117, #26B7FF);
+    background: linear-gradient(#e60000, var(--black-c));
     color: white;
     padding: 1rem;
     border-radius: 10px;
     text-align: center;
+    transition: transform 0.2s ease;
 }
 
-.ofertas-especiales {
-    display: flex;
-    justify-content: center;
-    /* Centra horizontalmente */
-    align-items: center;
-    /* Centra verticalmente si tiene altura */
-    flex-direction: column;
-    /* Para que los elementos queden apilados */
+#oferta-especial:hover {
+    transform: scale(1.03);
+    border: 3px solid #e60000;
+    cursor: pointer;
+}
+
+
+#oferta-especial p {
+    color: var(--white-c);
 }
 
 .precio-anterior {
@@ -57,5 +59,5 @@
 .precio-oferta {
     color: #e60000;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
 }

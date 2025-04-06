@@ -26,12 +26,3 @@ header h1 {
     flex: 1;
     /* Esto ayuda a centrar */
 }
-
-header h1 a {
-    color: white;
-    text-decoration: none;
-}
-
-header h1 a:hover {
-    text-decoration: underline;
-}
