@@ -1,0 +1,25 @@
+nav {
+    background: var(--main-c);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--white-c);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: var(--secondary-c);
+    /* Cambialo por el color que prefieras */
+}

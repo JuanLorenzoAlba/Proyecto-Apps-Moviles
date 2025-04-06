@@ -23,6 +23,8 @@
 
 .producto:hover {
     transform: scale(1.03);
+    border: 3px solid var( --secondary-c);
+    cursor: pointer;
 }
 
 .producto img {
