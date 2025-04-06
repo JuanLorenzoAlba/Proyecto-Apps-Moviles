@@ -1,25 +1,61 @@
-.izquierda{
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
+.izquierda {
+    background: var(--main-c);
+    padding: 20px 25px;
+    border-radius: 10px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.izquierda img {
-    border-radius: 8px;
-    width: 100%;
-    height: 180px;
-    object-fit: contain;
+.badge-oferta {
+    background: #e60000;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+
+.izquierda h2 {
+    margin-bottom: 12px;
+    color: var(--white-c);
+    font-size: 1.3em;
+    font-weight: bold;
+    color: var(--white-c);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#oferta-especial {
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--white-c);
+    background: linear-gradient(to right, #0d1117, #26B7FF);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .ofertas-especiales {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente si es necesario */
-    text-align: center; /* Alinear el texto al centro */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente si tiene altura */
+    flex-direction: column;
+    /* Para que los elementos queden apilados */
 }
 
-.ofertas-especiales {
-    width: fit-content;
-    margin: 0 auto; /* Esto lo centrará en el contenedor */
+.precio-anterior {
+    color: #888;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.precio-oferta {
+    color: #e60000;
+    font-weight: bold;
+    font-size: 1.3em;
 }

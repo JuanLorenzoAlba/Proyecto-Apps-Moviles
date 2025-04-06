@@ -10,9 +10,13 @@
 
 html, body {
     height: 100%;
-    margin: 0;
     display: flex;
     flex-direction: column;
+}
+
+/* El contenido crece y empuja al footer hacia abajo */
+main {
+    flex: 1;
 }
 
 nav {
