@@ -24,9 +24,6 @@ nav ul li a {
 nav ul li a:hover {
     cursor: pointer;
     background: var(--secondary-c);
-    /* Usa tu color secundario del logo */
     color: var(--main-c);
-    /* Hace contraste con el fondo */
     transform: scale(1.05);
-    /* Le da un toque de movimiento */
 }

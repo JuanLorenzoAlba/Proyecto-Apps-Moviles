@@ -17,12 +17,11 @@ header {
 .logo-container img {
     height: 200px;
     margin-right: 15px;
-    margin-top: -10px; /* Levanta la imagen un poco hacia arriba */
+    margin-top: -10px;
 }
 
 header h1 {
     margin: 10px 0;
     text-align: center;
     flex: 1;
-    /* Esto ayuda a centrar */
 }

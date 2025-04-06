@@ -15,7 +15,6 @@ body {
     flex-direction: column;
 }
 
-/* El contenido crece y empuja al footer hacia abajo */
 main {
     flex: 1;
 }
