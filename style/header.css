@@ -20,8 +20,18 @@ header {
     margin-top: -10px;
 }
 
-header h1 {
-    margin: 10px 0;
+.titulo-principal {
     text-align: center;
-    flex: 1;
+    color: var(--white-c);
+}
+
+.titulo-principal h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.titulo-principal p {
+    font-size: 1em;
+    opacity: 0.8;
+    margin-top: 10px;
 }
