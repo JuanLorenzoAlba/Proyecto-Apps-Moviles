@@ -30,9 +30,8 @@ main {
 ::-webkit-scrollbar-thumb {
     background-color: var(--secondary-c);
     border-radius: 6px;
-    border: 2px solid #e0e0e0;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--main-c);
+    border: 2px solid #e0e0e0;
 }
